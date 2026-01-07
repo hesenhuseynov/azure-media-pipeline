@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../../Desktop/azure-media-pipeline/src/media-processor/media-processor.csproj" />
+  <Project Path="../../../Desktop/azure-media-pipeline/src/MediaGateway.Api/MediaGateway.Api/MediaGateway.Api.csproj" />
+</Solution>

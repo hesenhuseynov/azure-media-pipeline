@@ -1,0 +1,12 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+**/*.user
+**/*.suo
+
+**/local.settings.json
+
+**/appsettings.Development.json

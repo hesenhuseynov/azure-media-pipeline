@@ -1,0 +1,8 @@
+flowchart LR
+  A[Client] -->|POST /uploads/init| B[MediaGateway.Api]
+  B -->|SAS URL| A
+  A -->|Upload| C[Blob Storage: raw-media]
+  C --> D[Event Grid]
+  D --> E[Service Bus: q-media-processing]
+  E --> F[Azure Function: MediaProcessor]
+  F -->|Copy/Move| G[Blob Storage: processed-media]
