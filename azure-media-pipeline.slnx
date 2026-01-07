@@ -1,4 +1,17 @@
 <Solution>
-  <Project Path="../../../Desktop/azure-media-pipeline/src/media-processor/media-processor.csproj" />
-  <Project Path="../../../Desktop/azure-media-pipeline/src/MediaGateway.Api/MediaGateway.Api/MediaGateway.Api.csproj" />
+  <Folder Name="/docs/">
+    <File Path="runbook.md" />
+  </Folder>
+  <Folder Name="/infra/" />
+  <Folder Name="/infra/diagrams/">
+    <File Path="architecture.mmd" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/media-processor/media-processor.csproj" />
+    <Project Path="src/MediaGateway.Api/MediaGateway.Api/MediaGateway.Api.csproj" />
+  </Folder>
 </Solution>

@@ -1,0 +1,8 @@
+@MediaGateway.Api_HostAddress = http://localhost:5003
+
+GET {{MediaGateway.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+
+###
